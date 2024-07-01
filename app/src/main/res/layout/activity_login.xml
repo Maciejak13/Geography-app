@@ -1,0 +1,100 @@
+<!-- activity_login.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/tlo"
+    tools:context=".loginActivity">
+
+    <CheckBox
+        android:id="@+id/remember_me_chck"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="304dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="317dp"
+        android:textStyle="bold"
+        android:text="Pozostań zalogowany">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="33dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Aplikacja do nauki geografii"
+        android:textAlignment="center"
+        android:textSize="28sp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tlo"
+        android:height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="185dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/tlo"
+        android:height="40dp"
+        android:layout_marginTop="234dp"
+        android:hint="Hasło"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn1"
+        android:text="zaloguj sie"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="464dp"
+        android:background="@drawable/btn2"
+        android:text="przejdz do rejestracji"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnResetPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnReg"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn3"
+        android:text="Resetuj hasło"
+        android:textSize="20dp" />
+
+</RelativeLayout>

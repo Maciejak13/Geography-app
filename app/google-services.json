@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "890931961970",
+    "firebase_url": "https://pracainz-cdec2-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pracainz-cdec2",
+    "storage_bucket": "pracainz-cdec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890931961970:android:f928e9ff7532c9a0f762eb",
+        "android_client_info": {
+          "package_name": "com.example.geoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5reeIfr_x-4TcxM4PzJYCMLqbugA1T08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

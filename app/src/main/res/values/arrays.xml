@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="difficulty_levels">
+        <item>Latwy</item>
+        <item>Sredni</item>
+        <item>Trudny</item>
+    </string-array>
+
+    <string-array name="question_categories">
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>AmerykaPLN</item>
+        <item>AmerykaPLD</item>
+        <item>Azja</item>
+        <item>Australia</item>
+        <!-- Dodaj więcej kategorii według potrzeb -->
+    </string-array>
+</resources>

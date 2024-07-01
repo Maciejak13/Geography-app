@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">geoapp</string>
+    <string name="btn_start_quiz">Start Quiz</string>
+    <string name="tv_hight_score">High Score: 0</string>
+    <string name="tv_score_text">Score: 0</string>
+    <string name="tv_question_text">Question: 1/x</string>
+    <string name="btn_confirm_text">Confirm</string>
+    <string name="difficulty_hard">Difficulty : Hard</string>
+    <string name="select_difficulty">Select Difficulty</string>
+    <string name="select_category">Select Category</string>
+</resources>

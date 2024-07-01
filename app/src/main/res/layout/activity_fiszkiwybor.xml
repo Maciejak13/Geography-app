@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/tlo"
+    android:layout_height="match_parent"
+    tools:context=".Fiszki.fiszkiwybor">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="33dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Wybierz interesujący cię region"
+        android:textAlignment="center"
+        android:textSize="28sp">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="281dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="-5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/amerykapln"
+                android:layout_width="330dp"
+                android:textSize="20sp"
+                android:layout_height="62dp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn1"
+                android:text="Ameryka Północna" />
+
+            <Button
+                android:id="@+id/amerykapld"
+                android:layout_width="330dp"
+                android:textSize="20sp"
+                android:layout_height="62dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn5"
+                android:text="Ameryka Południowa"  />
+
+            <Button
+                android:id="@+id/afryka"
+                android:layout_width="330dp"
+                android:textSize="20sp"
+                android:layout_height="62dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn2"
+                android:text="Afryka" />
+
+            <Button
+                android:id="@+id/europa"
+                android:layout_width="330dp"
+                android:textSize="20sp"
+                android:layout_height="62dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn4"
+                android:text="europa" />
+
+            <Button
+                android:id="@+id/azja"
+                android:layout_width="330dp"
+                android:textSize="20sp"
+                android:layout_height="62dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn5"
+                android:text="azja" />
+
+            <Button
+                android:id="@+id/australia"
+                android:layout_width="330dp"
+                android:textSize="20sp"
+                android:layout_height="62dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn1"
+                android:text="Australia" />
+
+            <Button
+                android:id="@+id/polarne"
+                android:layout_width="330dp"
+                android:textSize="20sp"
+                android:layout_height="62dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="90dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn2"
+                android:text="Regiony Polarne" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
